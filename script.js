@@ -1,9 +1,9 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
-const paddleWidth = 10;
+const paddleWidth = 15;
 const paddleHeight = 100;
-let ballX = canvas.width / 2;
-let ballY = canvas.height / 2;
+let ballX = canvas.width / 5;
+let ballY = canvas.height / 5;
 let ballSpeedX = 5;
 let ballSpeedY = 5;
 let paddleY = canvas.height / 2 - paddleHeight / 2;
