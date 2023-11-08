@@ -1,40 +1,12 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: black;
+.container {
+    text-align: center;
 }
 
-#game-container {
-  position: relative;
-  width: 800px;
-  height: 400px;
-  background-color: #000;
-  border: 2px solid #fff;
+canvas {
+    background: black;
 }
 
-#paddleA, #paddleB {
-  position: absolute;
-  width: 10px;
-  height: 80px;
-  background-color: #fff;
+#score {
+    color: white;
+    font-size: 24px;
 }
-
-#paddleA {
-  left: 10px;
-}
-
-#paddleB {
-  right: 10px;
-}
-
-#ball {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
